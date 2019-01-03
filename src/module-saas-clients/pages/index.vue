@@ -12,7 +12,7 @@
             <el-table-column fixed type="index" label="序号" width="50"></el-table-column>
             <el-table-column fixed prop="name" label="企业名称"  width="200"></el-table-column>
             <el-table-column fixed prop="version" label="版本"  width="150"></el-table-column>
-            <el-table-column fixed prop="companyphone" label="联系电话"  width="150"></el-table-column>
+            <el-table-column fixed prop="companyPhone" label="联系电话"  width="150"></el-table-column>
             <el-table-column fixed prop="expirationDate" label="截至时间"  width="150"></el-table-column>
             <el-table-column fixed prop="state" label="状态"  width="150">
               <!--scope:传递当前行的所有数据 -->
