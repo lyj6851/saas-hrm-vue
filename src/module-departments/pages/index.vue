@@ -77,7 +77,7 @@
                               </span>
                               <el-dropdown-menu slot="dropdown">
                                   <el-dropdown-item>
-                                    <el-button type="text" @click="handlAdd(data.id)">添加子dfgh部门</el-button>
+                                    <el-button type="text" @click="handlAdd(data.id)">添加子部门</el-button>
                                   </el-dropdown-item>
                                   <el-dropdown-item>
                                     <el-button type="text" @click="handlUpdate(data.id)">查看部门</el-button>
