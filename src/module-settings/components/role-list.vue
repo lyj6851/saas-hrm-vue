@@ -92,10 +92,10 @@ export default {
     handlerPerm(obj) {
        detail({id:obj.id}).then(res=>{
          this.formData = res.data.data;
-         this.checkNodes = res.data.data.permIds
+         this.checkNodes = res.data.data.permIds;
           permApi.list({type:0,pid:null,enVisible:1}).then(res => {
-            this.treeData = commonApi.transformTozTreeFormat(res.data.data)
-            this.permFormVisible=true
+            this.treeData = commonApi.transformTozTreeFormat(res.data.data);
+            this.permFormVisible=true;
           })
        })
     },
